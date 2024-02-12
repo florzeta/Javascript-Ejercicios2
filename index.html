@@ -11,22 +11,30 @@
 <body>
     <h1>Actividad 1:</h1>
     <div class="contenedor">
-        <div class="cuadrado" style="background-color: red;" onclick="cambiarColor('red')"></div>
-        <div class="cuadrado" style="background-color: green;" onclick="cambiarColor('green')"></div>
-        <div class="cuadrado" style="background-color: blue;" onclick="cambiarColor('blue')"></div>
+        <h2>Hace click en un color para cambiar el color del fondo:</h2>
+        <div>
+            <div class="cuadrado" style="background-color: red;" onclick="cambiarColor('red')"></div>
+            <div class="cuadrado" style="background-color: green;" onclick="cambiarColor('green')"></div>
+            <div class="cuadrado" style="background-color: blue;" onclick="cambiarColor('blue')"></div>
+        </div>
     </div>
     <h1>Actividad 2:</h1>
     <div class="contenedor">
         <h2>Contador de Caracteres, Ingrese su texto:</h2>
-        <textarea id="texto" rows="4" cols="50" oninput="contarCaracteres()"></textarea>
-        <p>Caracteres restantes: <span id="contador">0</span></p>
+        <div>
+            <textarea id="texto" rows="4" cols="50" oninput="contarCaracteres()"></textarea>
+            <p>Caracteres restantes: <span id="contador">0</span></p>
+        </div>
+    </div>
     </div>
     <h1>Actividad 3:</h1>
     <div class="contenedor">
-        <div id="alumnosAprobados">
-            <h2>Alumnos Aprobados</h2>
-            <ul id="listaAprobados">
-            </ul>
+        <h2>Alumnos Aprobados</h2>
+        <div>
+            <div id="alumnosAprobados">
+                <ul id="listaAprobados">
+                </ul>
+            </div>
         </div>
     </div>
 
