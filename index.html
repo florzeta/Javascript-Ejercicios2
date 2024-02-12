@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades Javascript UTN</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Actividad 1:</h1>
+    <div class="contenedor">
+        <div class="cuadrado" style="background-color: red;" onclick="cambiarColor('red')"></div>
+        <div class="cuadrado" style="background-color: green;" onclick="cambiarColor('green')"></div>
+        <div class="cuadrado" style="background-color: blue;" onclick="cambiarColor('blue')"></div>
+    </div>
+    <h1>Actividad 2:</h1>
+    <div class="contenedor">
+        <h2>Contador de Caracteres, Ingrese su texto:</h2>
+        <textarea id="texto" rows="4" cols="50" oninput="contarCaracteres()"></textarea>
+        <p>Caracteres restantes: <span id="contador">0</span></p>
+    </div>
+    <h1>Actividad 3:</h1>
+    <div class="contenedor">
+        <div id="alumnosAprobados">
+            <h2>Alumnos Aprobados</h2>
+            <ul id="listaAprobados">
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
